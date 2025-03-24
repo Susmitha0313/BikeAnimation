@@ -43,10 +43,10 @@ export const textMapping: {
 
 
 export const animationMapping: { [key: number]: gsap.TweenVars } = {
-    6: { opacity: 0, duration: 0.8, ease: "power2.out"}, 
-    20: { opacity: 0, duration: 0.8, ease: "power3.out", delay:1 },
-    40: { y:10, x:-10, opacity: 0, duration: 0.6, ease: "back.out(1.7)" }, 
+    6: { opacity: 0, duration: 0.3, ease: "power2.out"}, 
+    20: { opacity: 0, duration: 0.3, ease: "power3.out" },
+    40: { y:10, x:-10, opacity: 0, duration: 0.5, ease: "back.out(1.7)"}, 
     54: { x:20, opacity: 0, duration: 0.3, ease: "expo.out" },
-    70: { x: 10, opacity: 0, duration: 0.5, ease: "power1.out" }, 
-    83: { x: -10, opacity: 0, duration: 0.4, ease: "power2.out" }, 
+    70: { x: 10, opacity: 0, duration: 0.3, ease: "power1.out" }, 
+    83: { x: -10, opacity: 0, duration: 0.3, ease: "power2.out" }, 
   };

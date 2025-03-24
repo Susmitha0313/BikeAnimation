@@ -26,7 +26,7 @@ const Home: React.FC = () => {
   
   const preloadImages = () => {
     if (imagesRef.current.length > 0) return; //prevents reloading images
-
+    console.log("preloadimg");
     for (let i = 0; i <= frames.maxIndex; i++) {
       const imageUrl = `/assets/bikeFrames/${i
         .toString()
@@ -71,9 +71,9 @@ const Home: React.FC = () => {
   };
 
   
+      preloadImages();//load all images
   useGSAP(
     () => {
-      preloadImages();//load all images
 
       gsap.to(frames, {
         currentIndex: frames.maxIndex - 1,
