@@ -132,7 +132,7 @@ const Home: React.FC = () => {
     },
     { scope: container }
   );
-
+   
   return (
     <div className="w-full bg-zinc-900 ">
       <div className="parent relative top-0 left-0 w-full h-[1700vh] bg-red-300">
